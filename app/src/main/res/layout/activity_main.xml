@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="example.com.msj.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+         />
+
+    <EditText
+        android:id="@+id/editTextKullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:hint="Kullanıcı Adınız" />
+
+    <EditText
+        android:id="@+id/editTextUserSifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Şifreniz"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonGiris"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:background="#C8084FF5"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textViewKayıtOl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+
+        android:onClick="onClick"
+        android:text="Hala kayıt olmanız mı?" />
+
+</LinearLayout>
